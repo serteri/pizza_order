@@ -1,0 +1,18 @@
+@import "./colors";
+@import "./reset";
+
+.header {
+  background-color: black;
+}
+
+.store-info-header {
+  display: flex;
+  background-color: black;
+  max-width: 1180px;
+  margin: 0 auto; //middle
+  justify-content: space-between;
+  align-items: center;
+}
+.store-link-container {
+  display: flex;
+}
